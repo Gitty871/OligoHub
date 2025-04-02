@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Hub</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            background: #BEDDFF;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+        }
+        h1 {
+            background: #007bff;
+            color: white;
+            padding: 15px;
+            border-radius: 10px;
+        }
+        h2 {
+            color: #007bff;
+            margin-top: 20px;
+            border-bottom: 2px solid #007bff;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+        p {
+            font-size: 1.1em;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .youtube-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .youtube-card {
+            background-color: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        .youtube-card:hover {
+            transform: translateY(-10px);
+        }
+        .youtube-card img {
+            width: 100%;
+            border-bottom: 2px solid #ddd;
+        }
+        .youtube-card-content {
+            padding: 15px;
+        }
+        .youtube-card-content h3 {
+            color: #007bff;
+            font-size: 1.2em;
+            margin-bottom: 10px;
+        }
+        .youtube-card-content p {
+            color: #555;
+            font-size: 0.9em;
+            margin-bottom: 10px;
+        }
+        .youtube-card-content a {
+            display: inline-block;
+            padding: 8px 15px;
+            background-color: #007BFF;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+            font-size: 0.9em;
+            transition: background-color 0.3s;
+        }
+        .youtube-card-content a:hover {
+            background-color: #0056B3;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>📚 Math Hub</h1><br>
+        <p>🚀 "Math is not about numbers, equations, or algorithms—it’s about understanding!"</p>
+        <p><b><i id="sharp" >~Oligo</i><br></b></p><br>
+        <hr>
+        <p>Master math with free resources and expert video lessons. Let's make learning fun and easy! 🎯</p><hr>
+
+        <!-- YouTube Section -->
+        <h2>🎥 Learn with Videos</h2>
+        <p>Explore expert math lessons from amazing YouTube channels! 🔥</p>
+
+        <div class="youtube-container">
+            <!-- Joe Osei Bonsu -->
+            <div class="youtube-card">
+                <img src="https://i.postimg.cc/85cmKRCm/oligo.webp" alt="Joe Osei Bonsu">
+                <div class="youtube-card-content">
+                    <h3>Oligomatics</h3>
+                    <p>Focuses on engaging math tutorials and simple explanations for students of all levels.</p>
+                    <a href="https://youtube.com/@joeoseibonsu1587" target="_blank">Visit Channel</a>
+                </div>
+            </div>
+
+            <!-- 3Blue1Brown -->
+            <div class="youtube-card">
+                <img src="https://i.postimg.cc/sD3JShZ4/256.png" alt="3Blue1Brown">
+                <div class="youtube-card-content">
+                    <h3>3Blue1Brown</h3>
+                    <p>Offers deep and visually intuitive explanations of advanced mathematical concepts.</p>
+                    <a href="https://youtube.com/@3blue1brown" target="_blank">Visit Channel</a>
+                </div>
+            </div>
+
+            <!-- Numberphile -->
+            <div class="youtube-card">
+                <img src="https://i.postimg.cc/RVCcqxjP/numberphile-logo-1.png" alt="Numberphile">
+                <div class="youtube-card-content">
+                    <h3>Numberphile</h3>
+                    <p>Explores the beauty of numbers through captivating, easy-to-understand videos.</p>
+                    <a href="https://youtube.com/@Numberphile" target="_blank">Visit Channel</a>
+                </div>
+            </div>
+
+            <!-- Black Pen Red Pen -->
+            <div class="youtube-card">
+                <img src="https://i.postimg.cc/BQvK4cKk/hq720.jpg" alt="Black Pen Red Pen">
+                <div class="youtube-card-content">
+                    <h3>Black Pen Red Pen</h3>
+                    <p>Specializes in solving complex problems and explaining step-by-step solutions.</p>
+                    <a href="https://youtube.com/@blackpenredpen" target="_blank">Visit Channel</a>
+                </div>
+            </div>
+            <!-- Khan Academy -->
+            <div class="youtube-card">
+                <img src="https://i.postimg.cc/WzJ6jsgD/khan-academy-logo-png-seeklogo-394590.png" alt="Khan Academy">
+                <div class="youtube-card-content">
+                    <h3>Khan Academy</h3>
+                    <p>A comprehensive learning platform that covers everything from basic arithmetic to advanced calculus.</p>
+                    <a href="https://youtube.com/@KhanAcademy" target="_blank">Visit Channel</a>
+                </div>
+            </div>
+            
+          <h2>🎥 Watch Fun Quiz Competitions</h2>
+        
+            <!-- Sharks Quiz Ghana -->
+            <div class="youtube-card">
+                <img src="https://i.postimg.cc/cHWr6Zpg/shark.jpg" alt="Sharks Quiz Ghana">
+                <div class="youtube-card-content">
+                    <h3>Sharks Quiz Ghana</h3>
+                                  <a href="https://youtube.com/@thesharksquiz?si=fBPB0Yg9XDbjp70C" target="_blank">Visit Channel</a>
+            </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

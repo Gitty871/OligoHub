@@ -1,0 +1,143 @@
+/* General Page Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* App Bar Styling */
+.app-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: linear-gradient(to right, #007bff, #0056b3);
+}
+
+/* Logo Styling */
+.logo {
+    height: 200px; /* Increased size to cover about two-thirds of the center space */
+    max-width: 180px;
+    object-fit: contain;
+}
+
+/* Slogan / Tagline */
+.tagline {
+    text-align: center;
+    background: transparent; /* Removed white background */
+    padding: 10px 0;
+}
+
+#sing {
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    background: #2A9AD1;
+    padding: 8px 20px; /* Reduced padding */
+    border-radius: 25px;
+    margin: 5px auto;
+}
+
+/* Scrollable Navigation Bar */
+.navbar {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    background-color: #0056b3;
+    padding: 10px 0;
+    scrollbar-width: none; /* Hide scrollbar */
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 12px 20px;
+    font-weight: bold;
+    transition: 0.3s;
+    flex-shrink: 0;
+    margin: 0 5px; /* Space between nav items */
+    border: solid #00D36E ;
+    border-radius: 75px;
+}
+
+/* Button-like Effect Around Navigation Bar Items */
+.navbar .nav-btn {
+    position: relative;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+.navbar .nav-btn:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    transform: scale(0);
+    transition: 0.3s;
+}
+
+.navbar .nav-btn:hover:before {
+    transform: scale(1);
+}
+
+/* Hover effect for navigation items */
+.navbar a:hover {
+    background-color: #007bff;
+    border-radius: 5px;
+}
+
+/* Sections */
+.section {
+    padding: 20px;
+    margin: 20px;
+    background: white#D3FFFF;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Explore Button */
+.explore-btn {
+    display: inline-block;
+    text-decoration: none;
+    background: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 35px;
+    transition: 0.3s;
+}
+
+.explore-btn:hover {
+    background: #0056b3;
+}
+
+/* Back to Top Button */
+#backToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    display: none;
+}
+
+#backToTop:hover {
+    background: #0056b3;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: white;
+}
